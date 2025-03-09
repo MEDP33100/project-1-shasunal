@@ -45,7 +45,7 @@ I first began by creating a rough wireframe of the concept I had in mind of each
 
 ## Live Demo
 
-- Include a link to the live version of the project hosted on GitHub Pages.
+https://medp33100.github.io/project-1-shasunal/
 
 ## Credits
 
