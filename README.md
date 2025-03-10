@@ -8,7 +8,7 @@ I created a interactive storytelling project about a plastic cup in NYC to promo
 ## Figma Design
 
 Figma : https://www.figma.com/design/Kz5Fv068fxLo9MOUQu2j17/Project-1?node-id=0-1&t=yO0x9blChf0uglLt-1
-I first began by creating a rough wireframe of the concept I had in mind of each scene. Then I thought about what objects I wanted to be animated using gsap and wrote down any interactive elements. 
+I first began by creating a rough wireframe of the concept I had in mind of each scene. Then I thought about what objects I wanted to be animated using gsap and wrote down any interactive elements. I also took note of text and image positioning on Figma. 
 
 ## Features
 
@@ -41,11 +41,13 @@ I first began by creating a rough wireframe of the concept I had in mind of each
 - List the technologies and tools used in the project:
     - **Languages**: HTML, CSS, JavaScript
     - **Libraries**:GSAP for animations
-    - **Other**: GitHub Pages for hosting, Figma for design, Adobe Photoshop 
+    - **Other**: GitHub Pages for hosting, Figma for design, Adobe Photoshop for images, ChatGpt for code, Iphone Camera for photos, 
 
 ## Live Demo
 
-https://medp33100.github.io/project-1-shasunal/
+Figma: https://medp33100.github.io/project-1-shasunal/
+Slides: https://docs.google.com/presentation/d/1geiR2OJ4fro4RWtS4ZZz10aorU3U_u3dJefk3YdMtm8/edit?usp=sharing
+
 
 ## Credits
 
@@ -56,6 +58,7 @@ Anika for being in the photographs.
 Pixabay free images and audio. https://pixabay.com/
 Google fonts - Gloria Halleujah
 Gsap community forums https://gsap.com/community/
+Chatgpt for tracking slides for animation snippet in my script.js
 W3 schools tutorials for CSS, Javascript, HTML https://www.w3schools.com/
 Geeks for Geeks javascript examples. https://www.geeksforgeeks.org/javascript-examples/
 SheCodes javascript examples https://www.shecodes.io/athena/2400-writing-javascript-code-examples-and-tutorials
