@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     gsap.registerPlugin(TextPlugin);
 
+    //track what slide it is on from Chatgpt
     const contents = gsap.utils.toArray("#horizontal .content");
     const container = document.getElementById("horizontal");
     let currentIndex = 0;
@@ -19,17 +20,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const text9 = document.querySelector(".text9");
     const text10 = document.querySelector(".text10");
 
-    // Track text 
+    // Track text to stop replay
     let textPlayed = new Set();
 
-    // animate slides from chatgpt
+  //moves slides horizontally
     const slideAnimation = (index) => {
         gsap.to(container, {
             x: -index * window.innerWidth,
             duration: 0.8,
             ease: "power2.inOut",
             onComplete: () => {
-                triggerTextAnimation(index);
+                triggerTextAnimation(index);//calls animation
                 if(typeof window.checkBobaAnimation ==="function"){
                     window.checkBobaAnimation(index); //boba.js
                 }
@@ -66,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // trigger typing animation only on the correct slide
     const triggerTextAnimation=(index) =>{
-        if (textPlayed.has(index)) return; //text played/skip
+        if (textPlayed.has(index)) return; //has text, skip
 
         if(index===1){ 
             gsap.to(text1,{
@@ -133,9 +134,8 @@ document.addEventListener("DOMContentLoaded", () => {
         });
         }
         
-//track played text
+//track slide, does not repeat
         textPlayed.add(index); 
     };
 
-    console.log("Loaded");
 });
