@@ -120,15 +120,15 @@ h2{
     z-index:4000 !important;
 }
 
-.boba1{top:65%; left:48%; }
-.boba2{top:70%; left:45%; }
-.boba3{top:62%; left:42%; }
-.boba4{top:75%; left:49%;}
-.boba5{top:75%; left:43%;}
+.boba1{top:65%; left:38%; }
+.boba2{top:70%; left:35%; }
+.boba3{top:62%; left:40%; }
+.boba4{top:75%; left:40%;}
+.boba5{top:75%; left:42%;}
 
-.boba6{top:90%; left:48.5%; }
-.boba7{top:95%; left:48.5%; }
-.boba8{top:80%; left:48.5%; }
+.boba6{top:90%; left:48%; }
+.boba7{top:95%; left:48%; }
+.boba8{top:80%; left:48%; }
 
 
 .claw{
@@ -186,9 +186,6 @@ left:20%;
     h1{font-size:3rem;}
     h2{font-size: rem;}
     .foot, .foot2{height:600px !important;}
-
-    .boba{max-width:50px; max-height:50px;}
-
     .claw{ height:600px !important; top:-50%;}
 
     .trash{height:600px !important;}
@@ -205,9 +202,6 @@ left:20%;
     h1{font-size:4rem;}
     h2{font-size: 1.2rem;}
     .foot, .foot2 {height:800px !important;}
-.boba{ 
-    max-width:60px;
-    max-height:60px;}
 .claw{
      height:800px !important;
      top:-60%;
